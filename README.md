@@ -15,3 +15,10 @@ Features
 
 Deployment
 - Hosted on [Vercel](https://vercel.com/)
+
+
+-AI tools used for the project
+
+This project was built with the assistance of AI tools that helped speed up development and improve code quality:
+
+ChatGPT: Used extensively to generate the initial landing page HTML structure, write Tailwind CSS classes for a clean and responsive design, and get guidance on Git commands and deployment steps. ChatGPT helped me design visually appealing UI components quickly and efficiently.
