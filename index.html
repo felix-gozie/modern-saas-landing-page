@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SaaSify - Modern SaaS Solution</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#6366f1",
+            secondary: "#8b5cf6",
+          },
+        },
+      },
+    };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-2xl font-bold text-primary">SaaSify</h1>
+      <nav class="space-x-6 text-sm font-medium text-gray-600">
+        <a href="#features" class="hover:text-primary">Features</a>
+        <a href="#pricing" class="hover:text-primary">Pricing</a>
+        <a href="#faq" class="hover:text-primary">FAQ</a>
+        <a href="#contact" class="hover:text-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-center py-24 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-5xl font-extrabold mb-6 leading-tight">All-in-One SaaS Platform to <span class="bg-white text-indigo-600 px-2 rounded">Scale Smarter</span></h1>
+      <p class="text-lg mb-8 opacity-90">Manage your business operations, analytics, and team collaboration in one sleek dashboard.</p>
+      <a href="#" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-100">Start Free Trial</a>
+    </div>
+  </section>
+
+  <section id="features" class="py-24 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center mb-16">
+      <h2 class="text-4xl font-bold mb-4">Built for Efficiency</h2>
+      <p class="text-gray-600">From automation to insights, SaaSify covers all your SaaS growth needs.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2 text-indigo-600">Smart Analytics</h3>
+        <p class="text-gray-600">Track KPIs and business health with clean, visual dashboards.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2 text-indigo-600">Team Collaboration</h3>
+        <p class="text-gray-600">Comment, share, and work together without switching tools.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2 text-indigo-600">Workflow Automation</h3>
+        <p class="text-gray-600">Automate repetitive processes to boost team productivity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-24 px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold mb-4">Simple, Transparent Pricing</h2>
+      <p class="text-gray-600">No hidden fees. Choose the plan that fits your team.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div class="border rounded-2xl p-8 text-center shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Starter</h3>
+        <p class="text-3xl font-bold mb-4">$0<span class="text-sm">/mo</span></p>
+        <p class="text-gray-500 mb-6">Perfect for individuals & side projects.</p>
+        <a href="#" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition">Get Started</a>
+      </div>
+      <div class="border-2 border-indigo-600 rounded-2xl p-8 text-center shadow-lg bg-indigo-50">
+        <h3 class="text-xl font-bold text-indigo-700 mb-2">Pro</h3>
+        <p class="text-3xl font-bold mb-4">$29<span class="text-sm">/mo</span></p>
+        <p class="text-gray-700 mb-6">For growing teams and power users.</p>
+        <a href="#" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition">Choose Plan</a>
+      </div>
+      <div class="border rounded-2xl p-8 text-center shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Enterprise</h3>
+        <p class="text-3xl font-bold mb-4">Custom</p>
+        <p class="text-gray-500 mb-6">Tailored solutions for large companies.</p>
+        <a href="#" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition">Contact Sales</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="py-24 bg-gray-100 px-6">
+    <div class="max-w-4xl mx-auto text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+      <p class="text-gray-600">Need help? We've got answers.</p>
+    </div>
+    <div class="space-y-6 max-w-3xl mx-auto">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h4 class="font-semibold text-lg mb-2">Is there a free trial?</h4>
+        <p class="text-gray-600">Yes! The Starter plan is 100% free with no credit card required.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h4 class="font-semibold text-lg mb-2">Can I cancel anytime?</h4>
+        <p class="text-gray-600">Absolutely. You can cancel, upgrade, or downgrade at any time.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h4 class="font-semibold text-lg mb-2">Do you offer team pricing?</h4>
+        <p class="text-gray-600">Yes. Our Pro and Enterprise plans are built for teams of all sizes.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="bg-gray-900 text-white text-center py-10">
+    <p class="text-lg font-semibold mb-2">SaaSify</p>
+    <p class="text-sm text-gray-400 mb-4">© 2025 SaaSify. All rights reserved.</p>
+    <div class="space-x-4">
+      <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+      <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+      <a href="#" class="text-gray-400 hover:text-white">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
